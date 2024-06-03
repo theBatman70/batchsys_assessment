@@ -70,18 +70,6 @@ a {
   transition: all 0.3s;
 }
 
-.btn,
-.btn:link,
-.btn:visited {
-  display: inline-block;
-  font-size: 2rem;
-  padding: 1.6rem 3.2rem;
-  text-decoration: none;
-  font-weight: 400;
-  border: none;
-  transition: all 0.3s;
-}
-
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
