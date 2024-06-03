@@ -1,3 +1,4 @@
+# Responsive Hero Section designed completely with CSS
 _**Plain HTML CSS work, deployed directly from GitHub pages, link is attached up in the About section.**_
 
 This project showcases my HTML and CSS skills through the creation of a responsive hero section. Below, you'll find details about the techniques and tools used, as well as some insights into the development process.
