@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  max-width: 100rem;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -55,72 +55,104 @@ a {
   padding-block: 1rem;
   color: white;
   background-color: black;
+  z-index: 99;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+  font-weight: 400;
+  border: none;
+  transition: all 0.3s;
 }
 
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  height: 90rem;
+}
+
+.hero-text-box {
+  margin-top: 10rem;
 }
 
 .hero-title {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 900;
   text-transform: capitalize;
   line-height: 1.15;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.4rem;
 }
 
 .hero-subtitle {
   font-size: 1.6rem;
   text-transform: capitalize;
-  margin-bottom: 1.6rem;
+  margin-bottom: 3rem;
+  color: grey;
 }
 
-.hero-button {
-  padding-inline: 2rem;
-  padding-block: 1rem;
+.hero-cta-set {
+  margin-bottom: 1rem;
+}
+
+.hero-cta {
   color: white;
   background-color: black;
-  margin-right: 2rem;
+}
+
+.hero-cta:hover {
+  background-color: #ff0000;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  color: black;
+  background-color: gainsboro;
+  cursor: pointer;
 }
 
 .secondary-button {
   border: none;
   background-color: white;
-  margin-bottom: 3rem;
+}
+
+.secondary-button:hover {
+  color: darkblue;
+  cursor: pointer;
 }
 
 .hero-tags {
   transform: translateX(-20px);
+  width: 100%;
 }
 
 .phone-container {
   position: relative;
   align-self: flex-start;
+  height: 100%;
 }
 
 .phone {
   position: absolute;
-  height: 50rem;
-  height: auto;
   transition: transform 0.3s ease-in-out;
 }
 
 .phone1 {
   z-index: 3;
-  transform: translateX(-20px) rotate(-15deg);
+  transform: rotate(-15deg);
 }
 
 .phone2 {
   z-index: 2;
-  transform: translateX(100px) translateY(80px) rotate(-15deg);
+  transform: translateX(110px) translateY(80px) rotate(-15deg);
 }
 
 .phone3 {
   z-index: 1;
-  transform: translateX(220px) translateY(160px) rotate(-15deg);
+  transform: translateX(230px) translateY(160px) rotate(-15deg);
 }
 
 .ellipse-set {
