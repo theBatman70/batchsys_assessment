@@ -7,8 +7,6 @@ This project showcases my HTML and CSS skills through the creation of a responsi
 2. Open index.html in your preferred web browser to view the hero section.
 - Explore the CSS file to see how Flexbox, CSS Grid, and animations are implemented.
 
-# Responsive Hero Section Showcase
-
 ## Overview
 
 - **Objective:** Created a responsive Hero section using HTML and CSS.
@@ -21,22 +19,9 @@ This project showcases my HTML and CSS skills through the creation of a responsi
 - **Semantic HTML:** Used semantic HTML elements for better accessibility and SEO.
 
 ## Challenges and Solutions
+
 - Responsive Layout: Ensuring the hero section looks great on all devices was challenging. I used a combination of Flexbox and CSS Grid to create a flexible and adaptive layout.
 - Cross-Browser Compatibility: Ensuring consistent appearance across different browsers required thorough testing and some CSS adjustments.
 - Dynamic Positioning: Using transform and translate properties allowed for smooth animations and precise element placement.
-
-## Screenshots
-
-![Hero Section Desktop View](screenshots/desktop-view.png)
-![Hero Section Mobile View](screenshots/tablet-view.png)
-![Hero Section Mobile View](screenshots/mobile-view.png)
-
-## Future Improvements
-
-- Add more interactive elements such as animations or hover effects.
-- Incorporate JavaScript for additional functionality, like a slideshow or dynamic content.
-
-I have converted the given Figma design to a replica with HTML CSS. 
-The Navigation section and Hero Section are done to reflect my HTML CSS skills as informed in the assessment video.
 
 
