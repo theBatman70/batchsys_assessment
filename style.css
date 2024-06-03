@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px  */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  margin-block: 3rem;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-left {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+a:link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+}
+
+.header-button {
+  padding-inline: 3rem;
+  padding-block: 1rem;
+  color: white;
+  background-color: black;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 90rem;
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  line-height: 1.15;
+  margin-bottom: 1.8rem;
+}
+
+.hero-subtitle {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  margin-bottom: 1.6rem;
+}
+
+.hero-button {
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  color: white;
+  background-color: black;
+  margin-right: 2rem;
+}
+
+.secondary-button {
+  border: none;
+  background-color: white;
+  margin-bottom: 3rem;
+}
+
+.hero-tags {
+  transform: translateX(-20px);
+}
+
+.phone-container {
+  position: relative;
+  align-self: flex-start;
+}
+
+.phone {
+  position: absolute;
+  height: 50rem;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.phone1 {
+  z-index: 3;
+  transform: translateX(-20px) rotate(-15deg);
+}
+
+.phone2 {
+  z-index: 2;
+  transform: translateX(100px) translateY(80px) rotate(-15deg);
+}
+
+.phone3 {
+  z-index: 1;
+  transform: translateX(220px) translateY(160px) rotate(-15deg);
+}
+
+.ellipse-set {
+  position: absolute;
+  transform: translate(-70px, -70px);
+}
